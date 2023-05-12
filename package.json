@@ -8,9 +8,8 @@
     "start": "node generate.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "Anton Schegg",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "nconf": "^0.12.0",
     "pdfmake": "^0.2.7"
