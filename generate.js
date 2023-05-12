@@ -34,9 +34,9 @@ async function createPdf() {
   const pageHeightCm = 29.7;
 
   const pageMarginLeft = Math.floor(0.8 * pointsPerCentimeter);
-  const pageMarginTop = Math.floor(1.0 * pointsPerCentimeter);
+  const pageMarginTop = Math.floor(1.1 * pointsPerCentimeter);
   const pageMarginRight = Math.floor(0.8 * pointsPerCentimeter);
-  const pageMarginBottom = Math.floor(1.0 * pointsPerCentimeter);
+  const pageMarginBottom = Math.floor(1.1 * pointsPerCentimeter);
 
   const cellWidth = Math.floor(2.5 * pointsPerCentimeter);
   const columnGap = Math.floor(0.2 * pointsPerCentimeter);
@@ -49,7 +49,7 @@ async function createPdf() {
   }
   const heights = [];
   for (let row = 0; row < rowsPerPage; row++) {
-    heights.push(0.895 * pointsPerCentimeter);
+    heights.push(0.89 * pointsPerCentimeter);
   }
 
   const body = [];
