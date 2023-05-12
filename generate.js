@@ -49,7 +49,7 @@ async function createPdf() {
   }
   const heights = [];
   for (let row = 0; row < rowsPerPage; row++) {
-    heights.push(0.896 * pointsPerCentimeter);
+    heights.push(0.895 * pointsPerCentimeter);
   }
 
   const body = [];
