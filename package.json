@@ -1,0 +1,18 @@
+{
+  "name": "generate-scan-labels",
+  "version": "1.0.0",
+  "description": "Generate a PDF to print on Avery/Zweckform L4731REV labels with #XXXX",
+  "main": "generate.js",
+  "type": "module",
+  "scripts": {
+    "start": "node generate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Anton Schegg",
+  "license": "ISC",
+  "dependencies": {
+    "nconf": "^0.12.0",
+    "pdfmake": "^0.2.7"
+  }
+}
